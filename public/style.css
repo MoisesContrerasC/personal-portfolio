@@ -1,0 +1,160 @@
+.navbar {
+    background-color: #3658c9;
+}
+
+
+ul.navbar-nav {
+    list-style: none;
+    display: flex;
+    gap: 20px; 
+    justify-content: flex-end; 
+    font-size: 20px;
+}
+
+ul.navbar-nav {
+    list-style: none; 
+    display: inline; 
+    float:right;
+    font-size:30px
+    }
+ul.navbar-nav li {
+    display: inline-block; 
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+}
+footer {
+    color: #000000;
+    padding: auto;
+}
+footer .navbar-text {
+    font-size: small;
+    margin-bottom: 0;
+}
+.word-title{
+    width: 420px;
+    height: 63px;
+    flex-shrink: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#home-image {
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    margin-top: 1em; 
+    margin-bottom: 1em; 
+}
+
+
+.center-div {
+    margin: 1em 4em 1em 4em;
+    text-align: left;
+    padding: 20px 40px;
+    background-color: #97cbf2; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 0;
+}
+
+.navbar .navbar-nav .nav-link {
+    font-size: 25em;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+}
+
+.service {
+    flex: 1;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;       
+    flex-direction: column; 
+}
+
+.service-details {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.services-image {
+    width: 100%; 
+    max-width: 300px;
+    height: 200px;
+    object-fit: cover; 
+    display: block; 
+    margin: 1em auto; 
+}
+
+.service-details h3 {
+    margin-top: 0;
+}
+
+.service-details p {
+    margin-bottom: 20px;
+}
+
+.service-details a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    align-self: center; 
+}
+
+.service-details a:hover {
+    background-color: #0056b3;
+}
